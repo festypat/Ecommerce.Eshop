@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Business Layer\eShop.Application.Core\eShop.Application.Core.csproj" />
+    <ProjectReference Include="..\..\Business Layer\eShop.UseCases\eShop.UseCases.csproj" />
+    <ProjectReference Include="..\..\Data Layer\eShop.DataStore\eShop.DataStore.csproj" />
+    <ProjectReference Include="..\..\eShop.Web.Module\eShop.Web.CustomerPortal\eShop.Web.CustomerPortal.csproj" />
+  </ItemGroup>
+
+</Project>
